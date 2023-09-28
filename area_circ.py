@@ -1,4 +1,7 @@
 from math import pi
+from os import system
+
+system('cls')
 
 raio = float(input("Digite a área: "))
 area_circ = pi * (raio**2)
